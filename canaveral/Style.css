@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  --padding-bottom: 10px;
+  background-color: #009C3E;
+  
+}
+header a{
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 25px;   
+}
+
+header a img{
+    width: 39px;
+    height: 39px;
+    margin-left: 50px;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 120vh;
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)
+    )
+    ,url("/img/hero.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#menures{
+    background-color: rgb(35, 27, 15);
+}
+#menures h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    color: whitesmoke;
+    border: solid 2px;
+    border-radius: 30px;
+}
+#menures .container{
+    padding: 150px 12px;
+}
+.comida h2{
+    padding-left:20px ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+
+}
+
+.imagen img{
+    width: 80%;
+    height: 80%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.carta-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.carta{
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    
+    
+}
+
+.prod h3 {
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-content:var(padding-bottom);
+    margin: 0px;
+    padding: 0px;
+}
+.prod h4{
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content:end;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: solid 2px;
+}
+/*
+   PC
+*/
+
+@media(min-width: 720px){
+    header nav{
+        flex-direction: row;
+        justify-content: center;
+        
+    }   
+}
