@@ -413,6 +413,18 @@ section {
   background-color: #149ddd;
 }
 
+.iconos{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.iconos img{
+  max-width:7%;
+  justify-content:space-between;
+  
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
