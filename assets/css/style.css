@@ -147,6 +147,17 @@ h1, h2, h3, h4, h5, h6 {
   #main {
     margin-left: 0;
   }
+
+  .idioma{  
+    display: flex;
+    justify-content:center;
+    position:absolute;
+    z-index: 999999;
+    left: 60%;
+    padding: 0px;
+    max-width: 30%;
+    height: auto;
+  }
 }
 /*--------------------------------------------------------------
 # Navigation Menu
