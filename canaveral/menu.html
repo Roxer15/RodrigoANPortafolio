@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>CañaVeral</title>
+	<title>Cañaveral</title>
 
 	<!-- Normalize V8.0.1 -->
 	<link rel="stylesheet" href="./css/normalize.css">
@@ -25,6 +25,11 @@
 
 	<!-- Header -->
 	<header class="header full-box">
+	    <div class="header-brand text-center full-box">
+	        <a href="index.html">
+	            <img src="assets/img/logo-canaveral-grande.png" alt="logo" class="img-fluid">
+	        </a>
+	    </div>
 
 	    <div class="header-options full-box">
 	        <nav class="header-navbar full-box poppins-regular font-weight-bold" >
@@ -38,10 +43,6 @@
 					<li>
 						<a href="menu.html">Contactenos<span class="full-box"></span></a>
 					</li>
-					<li class="idioma">
-						<a href="indexen.html"><img  src="assets/img/estados-unidos.png"></a>
-					</li>
-						
 	            </ul>
 	        </nav>
 	    </div>
@@ -49,46 +50,51 @@
 
 
 	<!-- Content -->
-
-
-	<div class="banner">
-	    <div class="banner-body">
-			<h3 class="text-uppercase">Bienvenido a</h3>
-			<br>
-			<img src="assets/img/logo-canaveral-grande.png" alt="logo">
-			<br>
-	        <p>Más que un gusto, una experiencia única.</p>
-	        <a href="menu.html" class="btn btn-warning"><i class="fas fa-hamburger fa-fw"></i> &nbsp; Ir al menu</a>
-	    </div>
-	</div>
-
 	<div class="container container-web-page">
-	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros servicios</h3>
-	    <br>
-	    <div class="row">
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-shipping-fast fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Envíos a domicilio</h5>
-	            <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad possimus modi repellendus? Expedita, vitae rerum at aliquam eligendi soluta veniam ut dolor facere fugiat quod, maxime ad accusamus quisquam.</p>
-	        </div>
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-utensils fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Ventas al por mayor</h5>
-	            <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad possimus modi repellendus? Expedita, vitae rerum at aliquam eligendi soluta veniam ut dolor facere fugiat quod, maxime ad accusamus quisquam.</p>
-	        </div>
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-store-alt fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Reservaciones de local</h5>
-	            <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad possimus modi repellendus? Expedita, vitae rerum at aliquam eligendi soluta veniam ut dolor facere fugiat quod, maxime ad accusamus quisquam.</p>
-	        </div>
-	    </div>
-	</div>
+	    <h3 class="font-weight-bold poppins-regular text-uppercase">Menú de platillos</h3>
+	    <p class="text-justify">Bienvenido y/o Bienvenida al menú, acá encontrara todos los platillos disponibles en el restaurante.
 
-	<hr>
 
-	<div class="container-fluid container-web-page">
-	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros platillos más populares</h3>
-	    <div class="container-cards full-box">
+	    <div class="container-cards full-box" style="padding-bottom: 40px;">
+
+	        <div class="card shadow-1-strong">
+	            <img class="card-img-top" src="./assets/platillos/platillo.jpg" alt="nombre_platillo">
+	            <div class="card-body text-center">
+	                <h5 class="card-title font-weight-bold">Nombre o titulo del platillo</h5>
+	                <p class="card-text lead"><span class="badge bg-secondary">$25.00 USD</span></p>
+	            </div>
+	            <div class="card-body text-center">
+	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                &nbsp; &nbsp;
+	                <a href="details.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
+	            </div>
+	        </div>
+
+	        <div class="card shadow-1-strong">
+	            <img class="card-img-top" src="./assets/img/img_not_found.jpg" alt="nombre_platillo">
+	            <div class="card-body text-center">
+	                <h5 class="card-title font-weight-bold">Nombre o titulo del platillo</h5>
+	                <p class="card-text lead"><span class="badge bg-secondary">$25.00 USD</span></p>
+	            </div>
+	            <div class="card-body text-center">
+	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                &nbsp; &nbsp;
+	                <a href="details.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
+	            </div>
+	        </div>
+
+	        <div class="card shadow-1-strong">
+	            <img class="card-img-top" src="./assets/platillos/platillo.jpg" alt="nombre_platillo">
+	            <div class="card-body text-center">
+	                <h5 class="card-title font-weight-bold">Nombre o titulo del platillo</h5>
+	                <p class="card-text lead"><span class="badge bg-secondary">$25.00 USD</span></p>
+	            </div>
+	            <div class="card-body text-center">
+	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                &nbsp; &nbsp;
+	                <a href="details.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
+	            </div>
+	        </div>
 
 	        <div class="card shadow-1-strong">
 	            <img class="card-img-top" src="./assets/platillos/platillo.jpg" alt="nombre_platillo">
@@ -130,11 +136,8 @@
 	        </div>
 
 	    </div>
-	    <br>
-	    <p class="text-center"><a href="menu.html" class="btn btn-primary"><i class="fas fa-hamburger fa-fw"></i> &nbsp; Ir al menu</a></p>
-	</div>
 
-	<hr>
+	</div>
 
 	<!-- Footer -->
 	<footer class="footer">
@@ -165,7 +168,7 @@
 	            </div>
 	        </div>
 			<div class="copy-write">
-				<ul class="list-unstyled" >
+				<ul >
 					<li><h5 class="font-weight-bold" ><i class="far fa-copyright" ></i>Rodrigo Araya Noguera 2022 </h5></li>
 					<li> Todos los derechos reservados </li>
 				</ul>
@@ -173,7 +176,7 @@
 	    </div>
 	</footer>
 
-
+	
 	<!-- MDBootstrap V5 -->
 	<script src="./js/mdb.min.js" ></script>
 
