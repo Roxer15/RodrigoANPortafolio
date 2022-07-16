@@ -376,9 +376,7 @@ GAlery
 	.banner-body{
 		font-size: 15px;
 	}
-	.banner-body h3{
-		font-size: 10px;
-	}
+	
 }
 
 @media (max-width: 980px){
