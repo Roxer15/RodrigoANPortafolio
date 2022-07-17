@@ -442,12 +442,14 @@ GAlery
 	 display: inline-block;
 	}
 	.direccion .izq{
-		width: 50%;
-		margin-left: 70px;
+		width: 61%;
+		padding-left: 57px;
+		text-align: start;
 	}
 	.direccion .der{
-		width: 50%;
-		margin-right:-70px;
+		width: 30%;
+    	text-align: end;
+    	padding-right: 37px;
 	}
 	.izq h3, 
 	.der h3{
@@ -456,15 +458,15 @@ GAlery
 	}
 	 .izq hr{
 		height: 5px;
-		margin-left: 0%;
-		margin-right: 1%;
+		margin-left: -2%;
+		margin-right: -51%;
 		background-color: #009C3E;
 		margin-top: 5px;
 		margin-bottom: 5px;
 	 }
 	 .der hr{
 		height: 5px;
-		margin-left: -1%;
+		margin-left: 40%;
 		margin-right: 75%;
 		background-color: #009C3E;
 		margin-top: 5px;
