@@ -443,11 +443,11 @@ GAlery
 	}
 	.direccion .izq{
 		width: 50%;
-		margin-left: 100px;
+		margin-left: 80px;
 	}
 	.direccion .der{
 		width: 50%;
-		margin-right:-100px;
+		margin-right:-80px;
 	}
 	.izq h3, 
 	.der h3{
