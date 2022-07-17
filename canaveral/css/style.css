@@ -413,6 +413,64 @@ GAlery
 	.container-web-page{
 		padding-top: 35px
 	}
+	.carta{
+		margin-top: 5px;
+		padding-top: 0;
+	}
+	.carta h2{
+		font-size: 60px;
+		text-align: center;
+		font-weight: 900;
+
+	}	
+	.carta section img{
+		width: 70%;
+		height: 70%;
+		border-radius: 24px 0px 30px 0px;
+	}
+	.carta .imagenes{
+		text-align: center;
+		height: auto;
+		width: auto;
+		margin-bottom: -55px;
+	}
+	.carta .direccion{
+		display:inline-table;
+	}
+	.izq, 
+	.der{
+	 display: inline-block;
+	}
+	.direccion .izq{
+		width: 50%;
+		margin-left: 100px;
+	}
+	.direccion .der{
+		width: 50%;
+		margin-right:-100px;
+	}
+	.izq h3, 
+	.der h3{
+	 font-size:20px;
+	 font-weight: 900;
+	}
+	 .izq hr{
+		height: 5px;
+		margin-left: 0%;
+		margin-right: 1%;
+		background-color: #009C3E;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	 }
+	 .der hr{
+		height: 5px;
+		margin-left: -1%;
+		margin-right: 75%;
+		background-color: #009C3E;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		  
+	 }
 }
 
 @media (max-width: 767px){
