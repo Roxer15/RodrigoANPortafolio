@@ -296,7 +296,7 @@ GAlery
 }
 .Lista-menu{
 	list-style: none;
-	font-size: 41px;
+	font-size: 25px;
 	font-weight:bold;	
 }
 .container-web-page .Lista-menu ul{
@@ -442,7 +442,7 @@ GAlery
 	 display: inline-block;
 	}
 	.direccion .izq{
-		width: 61%;
+		width: 66%;
 		padding-left: 57px;
 		text-align: start;
 	}
@@ -471,8 +471,15 @@ GAlery
 		background-color: #009C3E;
 		margin-top: 5px;
 		margin-bottom: 5px;
-		  
-	 }
+	}
+	.izquierda{
+		text-align: start;
+		width: 50%;
+	}
+	.derecha{
+		text-align: end;
+		width: 50%;
+	}
 }
 
 @media (max-width: 767px){
